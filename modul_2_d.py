@@ -8,7 +8,7 @@ def generate_password(n):
     password = ""
     pas_list = []
     for i in range(1, n):
-        for j in range(i + 1, n + 1):
+        for j in range(i + 1, n):
             pas_list_sum = i + j
             if n % pas_list_sum == 0:
                 pas_list.append((i, j))
